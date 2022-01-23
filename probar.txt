@@ -1,0 +1,101 @@
+{
+    "_id": {
+        "$oid": "61da1d48b6e6a3c8671fd8d1"
+    },
+    "cupos": {
+        "$numberLong": "1"
+    }
+}
+{
+    "_id": {
+        "$oid": "61df2abc4b8819cdd6ba46a4"
+    },
+    "cupos": {
+        "$numberLong": "2"
+    }
+}
+
+
+{
+    "_id": {
+        "$oid": "61edb2ad422ccdfa5ce4bcf7"
+    },
+    "Periodo": {
+        "$oid": "61da1d48b6e6a3c8671fd8d1"
+    },
+    "Curso": {
+        "$oid": "61da1e0bb6e6a3c8671fd8d4"
+    },
+    "Estudiante": {
+        "$oid": "61da15c5b6e6a3c8671fd8b2"
+    }
+}
+
+{
+    "_id": {
+        "$oid": "61edb3b3422ccdfa5ce4bd08"
+    },
+    "Periodo": {
+        "$oid": "61df2abc4b8819cdd6ba46a4"
+    },
+    "Curso": {
+        "$oid": "61da1e0bb6e6a3c8671fd8d4"
+    },
+    "Estudiante": {
+        "$oid": "61edb372422ccdfa5ce4bd05"
+    }
+}
+
+{
+    "_id": {
+        "$oid": "61da15c5b6e6a3c8671fd8b2"
+    },
+    "nombres": "Jose Javier",
+    "apellidos": "Reyes Macias",
+    "dni": "1351828189",
+    "fecha_de_nacimiento": {
+        "$date": "2001-02-15T05:00:00.000Z"
+    },
+    "correo": "jjrm1351828189@gmail.com",
+    "code_ciudad": {
+        "nombre": "Manta"
+    }
+}
+
+{
+    "_id": {
+        "$oid": "61edb372422ccdfa5ce4bd05"
+    },
+    "nombres": "Carlos Enrique",
+    "apellidos": "Reyes Macias",
+    "dni": "0961553152",
+    "fecha_de_nacimiento": {
+        "$date": "1999-04-27T05:00:00.000Z"
+    },
+    "correo": "carlosbm@gmail.com",
+    "code_ciudad": {
+        "nombre": "Manta"
+    }
+}
+{
+    "_id": {
+        "$oid": "61da1e0bb6e6a3c8671fd8d4"
+    },
+    "code_seccion": {
+        "nombre": "Mañana"
+    },
+    "code_nivel": {
+        "nombre": "Primero"
+    },
+    "code_Paralelo": {
+        "nombre": "A"
+    },
+    "code_aula": {
+        "nombre": "Segundo piso"
+    },
+    "numero_est": 0,
+    "descripcion": "Primer nivel A",
+    "periodo": {
+        "_id": "61da1d48b6e6a3c8671fd8d1"
+    }
+}
